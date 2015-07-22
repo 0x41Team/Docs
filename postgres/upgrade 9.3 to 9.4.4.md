@@ -51,6 +51,7 @@ Command: `$ ps_lsclusters`
 Ok, You trying connecting server posgres using pgadmin 3.
 
 Critical, you know. Default postgres port is 5432 but it changed to 5433 after upgrade 9.4, it importion for you using connecting server. 
+
 ![ps_isready](https://raw.githubusercontent.com/flashjs/Docs/master/images/snapshot7.png)
 
 
