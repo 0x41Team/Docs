@@ -1,5 +1,5 @@
 Solve problem on postgresql.
-To day, I upgrade posgresql 9.3 to 9.4 on ubuntu. Because 9.3 unsupported JSONB datatype, i can jsonb for project Nodejs.
+To day, I upgrade posgresql 9.3 to 9.4 on ubuntu. Because 9.3 unsupported `JSONB` datatype, i can jsonb for project Nodejs.
 
 Here, I'm upgrade to postgres 9.4 successfully and I can't make postgres back 9.3 for tutorial. I hope you do it, and you can do it.
 First of all, check version current postgres.
@@ -20,9 +20,9 @@ http://www.postgresql.org/download/linux/ubuntu/
 
 Add repository for system.
 
-Example: Trusty (14.04)
+Example: `Trusty (14.04)`
 
-Create the file /etc/apt/sources.list.d/pgdg.list, and add a line for the repository.
+Create the file `/etc/apt/sources.list.d/pgdg.list`, and add a line for the repository.
 
 `$ vim /etc/apt/sources.list.d/pgdg.list`
 ![vim](https://raw.githubusercontent.com/flashjs/Docs/master/images/snapshot2.png)
@@ -50,7 +50,7 @@ Command: `$ ps_lsclusters`
 ![ps_lsclusters](https://raw.githubusercontent.com/flashjs/Docs/master/images/snapshot6.png)
 Ok, You trying connecting server posgres using pgadmin 3.
 
-Critical, you know. Default postgres port is 5432 but it changed to 5433 after upgrade 9.4, it importion for you using connecting server. 
+Critical, you know. Default postgres port is `5432` but it changed to `5433` after upgrade 9.4, it importion for you using connecting server. 
 
 ![ps_isready](https://raw.githubusercontent.com/flashjs/Docs/master/images/snapshot7.png)
 
